@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>UPLOAD</title>
+</head>
+<body>
+<form action="http://localhost:3000/product_types" method="post" enctype="multipart/form-data">
+	<select name="loai">
+		<option value="0">-select cakes-</option>
+		<option value="cupcakes">Cupcakes</option>
+		<option value="cakes">Cakes</option>
+		<option value="macarons">Macarons</option>
+		<option value="cookies">Cookies</option>
+	</select>
+	<input type="text" name="ten" placeholder="Name cakes"><br>
+	<input type="file" name="file"><br>
+	<textarea name="mota"></textarea><br>
+	<input type="submit" value="upload">
+</form>
+
+</body>
+</html>
